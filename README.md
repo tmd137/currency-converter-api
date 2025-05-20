@@ -92,7 +92,7 @@ Installation
 
 3. Run the application
    cd CurrencyConverterAPI
-   dotnet run
+   dotnet run --urls "httpa://localhost:7137"
 
 **Assumptions**
 
