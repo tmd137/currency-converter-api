@@ -91,7 +91,7 @@ Installation
    dotnet restore
 
 3. Run the application
-
+   cd CurrencyConverterAPI
    dotnet run
 
 **Assumptions**
