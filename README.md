@@ -81,8 +81,8 @@ Prerequisites
 Installation
 
 1. Clone the repository
-   
-  git clone https://github.com/tmd137/currency-converter-api.git  
+  
+  git clone https://github.com/tmd137/currency-converter-api.git
   
   cd currency-converter-api
 
@@ -91,8 +91,11 @@ Installation
    dotnet restore
 
 3. Run the application
+   
    cd CurrencyConverterAPI
+   
    dotnet run --urls "httpa://localhost:7137"
+   
 
 **Assumptions**
 
