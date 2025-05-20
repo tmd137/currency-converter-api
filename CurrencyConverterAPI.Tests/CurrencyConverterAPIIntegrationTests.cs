@@ -67,7 +67,6 @@ namespace CurrencyConverterAPI.Tests
 
             // Assert
             Assert.True(handler.CanReadToken(token));
-
             var jwtToken = handler.ReadJwtToken(token);
             Assert.NotNull(jwtToken);
             Assert.Equal("admin", jwtToken.Payload["sub"]);
